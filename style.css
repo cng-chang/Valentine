@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(231, 147, 187);
+    background-size:70%;
+    background-image: url('back.JPG');
+}
+
+.container{
+    margin: 400px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+}
+
+.container img{
+    width: 10%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255, 0.6);
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 50%;
+}
+
+.tittle{
+    font-family: cursive;
+    font-size: 50pt;
+    position:absolute;
+    top:200px;
+    left:30%;
+}
+
+.letter{
+    width:50%;
+    height:50%;
+    position:absolute;
+    left: 25%;
+}
